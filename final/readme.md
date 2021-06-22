@@ -19,16 +19,14 @@
 
 完成度越高分数越高，按已知信息，往届不乏按要求做完了的。
 
-但是没法完全按要求做完也不用慌，能完成多少就完成多少，期末考试形式的大作业，麻烦拿出与之相配的努力。
-
-期末考试形式的大作业。应该勉强可以推出：大作业不写 = 不参加期末考，大作业不认真 = 期末考试不认真。作业文档给的那么正式，做的工作和交的报告不得与之匹配？ 大作业改分的区分度应该会远大于其他作业。
+但是没法完全按要求做完也不用慌，能完成多少就完成多少，期末考试形式的大作业，拿出与之相配的努力就能拿高分。没有完全按要求做完的还是占多数。
 
 # 该目录下的一些参考源码
 
 - `github_syscalltest.cpp` 来源不详，应该来自github上某个仓库的。github上使用pin的源码挺多的，但是搜不搜得到适合自己用的，就....
 - `Demo_ChapX.cpp ` 总共4个文件，根据源码中的信息，来自博客 http://shell-storm.org/blog/Taint-analysis-with-Pin/ 但实际应来自 http://shell-storm.org/blog/Taint-analysis-and-pattern-matching-with-Pin/  （也就是期末考试文档的倒数第二个参考链接，不确定网站中的源码是否有更新）另外这个巨佬的repo  https://github.com/JonathanSalwan/PinTools 下的TaintAnalysis目录也可以参考。
-  - 源码中包含一部分注释，也许对程序理解有一定帮助
-- `Demo_Chap5.cpp` 中包含一些污点分析中的核心操作（寄存器级、内存级标记/去标记过程），可以直接拿去用。记忆中这个文件可以过编译，也可以用。问题的核心在于，对于不同应用，要选择一个合适的地方开始做标记。
+  - 源码如`Demo_Chap4.cpp`包含一部分注释，也许对程序理解有一定帮助
+- `Demo_Chap5.cpp` `Demo_Chap4.cpp`中包含一些污点分析中的核心操作（寄存器级、内存级标记/去标记过程），可以直接拿去用。问题的核心在于，对于不同应用，要选择一个合适的地方开始做标记。
 
 污点标记起始位置选择：
 
@@ -36,35 +34,6 @@
 2. 动态分析：依据平台选择调试器(ollydbg, gdb)，或者用Pin初步分析
 
 对于小型程序，一般都是两者结合。
-
-# 没什么用的信息
-
-最后挖到一个迟交了很久而且完成度不高的菜鸡报告的实验总结与参考链接，也许能够提供一些帮助。如果觉得没有帮助，就当没看到。
-
-![](summary.png)
-
-![](ref.png)
-
-```
-6. 参考文献 
-https://www.4hou.com/tools/7890.html
-https://blog.csdn.net/wjtxt/article/details/7000030 miracles: Install and Run Intel PIN in Ubuntu
-http://xlpiao.blogspot.com/2016/06/install-and-run-intel-pin-in-ubuntu.html
-https://askubuntu.com/questions/202773/using-intels-pin-tool-on-ubuntu
-https://blog.netspi.com/dynamic-binary-analysis-intel-pin/ 
-https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
-http://manpages.ubuntu.com/manpages/bionic/man2/sendmsg.2.html 
-http://manpages.ubuntu.com/manpages/bionic/man2/sendmmsg.2.html
-https://software.intel.com/sites/landingpage/pintool/docs/97971/Pin/html/group__API__REF.html
-https://software.intel.com/sites/landingpage/pintool/docs/97971/Pin/html/index.html 
-http://shell-storm.org/blog/Taint-analysis-and-pattern-matching-with-Pin/
-```
-
-> 参考链接已经有一部分无法用了，活用google github现学现卖吧，中文的pin参考资料太少了。
->
-> 19年给的参考链接里可没有 shell-storm.org 的参考链接，当时是 真·从0开始的Intel pin，有了shell-storm里的教程至少算从0.01开始。找到巨佬写的合适的教程是跳坑的第一步(鬼知道当年这一步花了多少天)
->
-> 如果本文档能助你从0.000001开始Intel pin，那就值了。如果没有帮助，那抱歉浪费了你十多分钟浏览这个文档。
 
 # Vmess Share
 

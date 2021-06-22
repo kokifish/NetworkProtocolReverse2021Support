@@ -27,6 +27,7 @@
 
 - `github_syscalltest.cpp` 来源不详，应该来自github上某个仓库的。github上使用pin的源码挺多的，但是搜不搜得到适合自己用的，就....
 - `Demo_ChapX.cpp ` 总共4个文件，根据源码中的信息，来自博客 http://shell-storm.org/blog/Taint-analysis-with-Pin/ 但实际应来自 http://shell-storm.org/blog/Taint-analysis-and-pattern-matching-with-Pin/  （也就是期末考试文档的倒数第二个参考链接，不确定网站中的源码是否有更新）另外这个巨佬的repo  https://github.com/JonathanSalwan/PinTools 下的TaintAnalysis目录也可以参考。
+  - 源码中包含一部分注释，也许对程序理解有一定帮助
 - `Demo_Chap5.cpp` 中包含一些污点分析中的核心操作（寄存器级、内存级标记/去标记过程），可以直接拿去用。记忆中这个文件可以过编译，也可以用。问题的核心在于，对于不同应用，要选择一个合适的地方开始做标记。
 
 污点标记起始位置选择：
@@ -63,7 +64,7 @@ http://shell-storm.org/blog/Taint-analysis-and-pattern-matching-with-Pin/
 >
 > 19年给的参考链接里可没有 shell-storm.org 的参考链接，当时是 真·从0开始的Intel pin，有了shell-storm里的教程至少算从0.01开始。找到巨佬写的合适的教程是跳坑的第一步(鬼知道当年这一步花了多少天)
 >
-> 如果本文档能助你从0.000001开始Intel pin，那就值了。
+> 如果本文档能助你从0.000001开始Intel pin，那就值了。如果没有帮助，那抱歉浪费了你十多分钟浏览这个文档。
 
 # Vmess Share
 

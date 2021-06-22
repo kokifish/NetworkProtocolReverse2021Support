@@ -38,7 +38,7 @@
 # Vmess Share
 
 1. 复制下面vmess开头的内容
-2. v2rayN (windows用) 菜单栏：服务器 -> 从剪贴板导入批量URL   或者 ctrl+V：导入 白嫖的vmess节点
+2. v2rayN (windows用) 菜单栏：服务器 -> 从剪贴板导入批量URL   或者 ctrl+V：导入 vmess节点。用于查找学习资料。
 
 ```
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImh0dHBzOi8vZ2l0LmlvL3Y5OTk5IOe+juWbvTU1IiwNCiAgImFkZCI6ICJmcmVlLXJ1c3NpYW4wMS1jZG4ueGlhb2hvdXppLmNsdWIiLA0KICAicG9ydCI6ICI4MCIsDQogICJpZCI6ICIzZDMxNzI4ZS0wNjRkLTQyYjgtYjk0NS1mNzljMDA4ZjczZmMiLA0KICAiYWlkIjogIjIzMyIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiZnJlZS1ydXNzaWFuMDEtY2RuLnhpYW9ob3V6aS5jbHViIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAiIg0KfQ==
